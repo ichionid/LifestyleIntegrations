@@ -1,0 +1,6 @@
+@StravaApp_HostAddress = http://localhost:5109
+
+GET {{StravaApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
