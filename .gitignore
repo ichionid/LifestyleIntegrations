@@ -1,0 +1,79 @@
+# Visual Studio / .NET artifacts
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.vs/
+.vs/
+TestResults/
+*.ncb
+*.pch
+*.mdb
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Build results
+*.dll
+*.exe
+*.app
+*.appx
+*.msi
+*.nupkg
+*.loom
+
+# Publish output
+publish/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# ASP.NET temporary files
+*.log
+*.vspscc
+*_i.c
+*_p.c
+*.pdb
+*.cache
+*.ilk
+*.meta
+*.obj
+*.tmp
+*.temp
+
+# Entity Framework Core migration metadata
+# (Keep migrations source files, ignore model snapshots if generated locally)
+# Optional: leave these uncommented only if you don't want snapshots in source control
+# AppDbContextModelSnapshot.cs
+
+# Local app data
+appsettings.Development.json
+secret.json
+*.local.json
+
+# SQLite / local database files
+*.db
+*.db-journal
+
+# Rider / ReSharper
+*.DotSettings.user
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+*~
